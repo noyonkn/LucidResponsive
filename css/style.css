@@ -1,0 +1,578 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.headers-section{
+	background: url(../images/banner.png) center top no-repeat;
+    background-size: cover;
+
+}
+ .headers-section .bg-light{
+	background: transparent !important;
+}
+.headers-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0px 15px 0px 0px;
+}
+.navbar-light .navbar-nav .nav-link.active,.headers-section .navbar-light .navbar-nav .nav-link:hover{
+    background: url(../images/line.png) bottom center no-repeat;
+    background-size: auto;
+}
+
+.headers-section .banner{
+     width: 100%;
+     padding: 80px 0px;
+}
+.headers-section .banner h2 {
+    color: #008ed6;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+}
+.headers-section .banner h1{
+	 color: #fff;
+	 font-size: 50px;
+    line-height:60px;
+    font-weight: 600;	
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 20px 0px;
+    letter-spacing: 2px;
+
+
+}
+.headers-section .banner p{
+	 color: #b4b4b4;
+	 font-size: 14px;
+    line-height:24px;
+    font-weight: 400;	
+	font-family:'Source Sans Pro', sans-serif;
+	margin: 0px 0px 60px 0px;
+    letter-spacing: 1px;
+
+ 
+	
+}
+.headers-section .banner .btns{
+
+}
+.headers-section .banner .btn-primary {
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 29px 0px 0px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.headers-section .banner .btn-primary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+.headers-section .banner .btn-success{
+	color: #fff;
+	background:transparent;
+	border: 1px solid #008ed6 ;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;	
+    padding: 10px 20px;
+    border-radius: 3px;	
+}
+.headers-section .banner .btn-success:hover{
+	color: #fff;
+	background:#008ed6;
+	border: 1px solid #008ed6 ;
+}
+/*____________HEADER-CODE-END-HERE___________________*/
+
+.product-review{
+	width: 100%;
+	background:#fff;
+	padding: 50px 0px;
+}
+/*//////////////////////////////////////////////////////////////////TITLE-GLOBAL/////////////////////////*/
+.product-review .title{
+	text-align: center;
+}
+.product-review .title h5 {
+    color: #008ed6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.product-review .title h1 {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.product-review .inner-pr {
+    text-align: center;
+    padding: 34px 26px;
+}
+.product-review .inner-pr .icons {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #eee;
+    line-height: 90px;
+    margin: auto;
+}
+.product-review .inner-pr .icons img{
+	width: auto;
+}
+.product-review .inner-pr h2 {
+    color: #000;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.product-review .inner-pr p {
+    color: #b4b4b4;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+
+}
+/*--------------------------------------------------*/
+.details-section{
+	width: 100%;
+	padding: 50px 0px;
+}
+.details-section .title {
+    text-align: left;
+    margin: 0px 0px 50px 0px;
+}
+.details-section .title h5 {
+    color: #008ed6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.details-section .title h1 {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+.details-section .inner-f{
+	padding: 50px 0px 0px 0px;
+}
+.details-section .inner-f p {
+    color: #b4b4b4;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+
+}
+.details-section .inner-f ul {
+    padding: 25px 0px;
+}
+.details-section .inner-f ul li{
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 35px;
+	font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.details-section .inner-f ul li span{
+   margin: 0px 5px 0px 0px;	
+}
+.details-section .inner-f ul li span img{
+   width: 14px;
+   height: 14px;
+}
+/*////////////////////////////////////////////*/
+.iphone-5{
+	width: 100%;
+	padding: 50px 0px;
+	background: #f2f2f2;
+}
+.iphone-5 .title {
+    text-align: left;
+    margin: 0px 0px 50px 0px;
+}
+.iphone-5 .title h5 {
+    color: #008ed6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.iphone-5 .title h1 {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.iphone-5 .inner-ip5{
+	padding: 80px 0px 0px 0px;
+}
+.iphone-5 .inner-ip5 p {
+    color: #b4b4b4;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/*----------------*/
+.tetimonial{
+    width: 100%;
+    background: url(../images/Testimonial.png) center top no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.tetimonial .title {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.tetimonial .title h5 {
+    color: #008ed6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.tetimonial .title h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.tetimonial .owl-carousel .item h5 {
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0px 0px 50px 0px;
+}
+.tetimonial .owl-carousel .item h6 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.tetimonial .owl-carousel .item h4{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.tetimonial .owl-carousel .item .c-img{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+}
+.tetimonial .owl-theme .owl-dots .owl-dot{
+    margin: 50px 0px 0px 0px;
+}
+/*-----------------------------*/
+
+.download{
+    width: 100%;
+    background:#15141a;
+    padding: 40px 0px;
+}
+.download h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.download h2 span{
+    font-weight: 600;
+    
+}
+
+.download .btns{
+
+}
+.download .btns  .btn-primary {
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 29px 0px 0px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.download .btns .btn-primary:hover {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+.download .btns .btn-success{
+    color: #fff;
+    background:transparent;
+    border: 1px solid #008ed6 ;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;   
+    padding: 10px 20px;
+    border-radius: 3px; 
+}
+.download .btns .btn-success:hover{
+    color: #fff;
+    background:#008ed6;
+    border: 1px solid #008ed6 ;
+}
+/*....................*/
+.priceing{
+    width: 100%;
+    padding: 80px 0px;
+}
+.priceing .title {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.priceing .title h5 {
+    color: #008ed6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.priceing .title h1 {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+.priceing .price-box{
+    text-align: center;
+    border: 1px solid #eee;
+}
+.priceing .price-box:hover{
+    border: 1px solid #008ed6;
+}
+
+.priceing .price-box .price-head h2{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0px;
+    margin: 0px;
+}
+.priceing .price-box .price{
+    border-bottom: 1px solid #eee;
+    padding: 30px 0px;
+    position: a;
+
+}
+.priceing .price-box .price p {
+    color: #999999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.priceing .price-box:hover .price p{
+    color: #fff;
+}
+.priceing .price-box .price h1 {
+    color: #000;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+}
+.priceing .price-box:hover .price h1{
+    color: #fff;
+}
+
+
+.priceing .price-box .price h1 sup{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.priceing .price-box .price-content {
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 30px 8px;
+}
+.priceing .price-box .price-content .btn-primary {
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    border-radius: 0px;
+    padding: 7px 22px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+.priceing .price-box:hover .price-content .btn-primary{
+    color: #000;
+    background:#008ed6;
+    border: 1px solid #008ed6;
+    color: #fff;
+}
+.priceing .price-box:hover .price{
+    background: #008ed6;
+    color: #fff !important;
+}
+.priceing .price-box:hover .price-head h2{
+    color:#008ed6 ;
+}
+/*------------------------------------*/
+.contact-us {
+    width: 100%;
+    background: #ededed;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+}
+.contact-us .title {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.contact-us .title h5 {
+    color: #008ed6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.contact-us .title h1 {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+.contact-us .inner-c{
+    text-align: center;
+}
+.contact-us .inner-c p {
+    color: #8b8383;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0px 0px 0px;
+}
+.contact-us .inner-c .pp{
+    margin: 10px 0px 0px 0px;
+}
+.contact-us .main-form {
+    width: 100%;
+    padding: 80px 45px;
+    background: #000;
+    margin: 70px 0px 0px 0px;
+    margin: 33px 0px -70px 0px;
+}
+.contact-us .main-form .form-control{
+    color: #444348;
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid #444348;
+    border-radius: 3px;
+}
+.contact-us .main-form .btn-primary{
+    color: #fff;
+    background:#008ed6;
+    border: 1px solid #008ed6 ;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;   
+    padding: 10px 50px;
+    border-radius: 3px; 
+}
+.footer{
+    font-weight: 100%;
+    background: #000;
+    padding: 20px 0px 10px 0px;
+}
+.footer p {
+    color: #444348;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: context-menu;
+}
+.footer .social-link{
+    text-align: center;
+}
+.footer .social-link ul{
+    text-align: center;
+    cursor: context-menu;
+
+
+
+}
+.footer .social-link ul li{
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.footer .social-link ul li a{
+    cursor: pointer;
+
+}
+.footer .social-link ul li a i{
+    color: #444348;
+    margin: 0px 15px 0px 0px;
+}
+.footer .social-link ul li a i:hover{
+    color: #008ed6;
+    cursor: pointer;
+
+
+}
